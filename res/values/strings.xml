@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mr.Call</string>
+    <string name="action_settings">这家伙很懒。这个功能还没有做</string>
+    <string name="introduceTV">
+        	点击下面按钮输入一个电话号码，确定后该号码会保存到程序中。
+        	今后你若再打开该应用，您的手机会自动拨出该号码。
+   	</string>
+    <string name="title">请输入电话号码：</string>
+    <string name="yes">确定</string>
+    <string name="no">取消</string>
+    <string name="setNumberBtn">设置电话号码(请谨慎填写)</string>
+</resources>

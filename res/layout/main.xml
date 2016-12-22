@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/introduceTV"
+        />
+    <Button 
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:id="@+id/setNumber"
+        android:text="@string/setNumberBtn"
+        />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneNumberTV"
+        />
+	<TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/callTimesTV"
+        />
+	<TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/talkTimeTV"
+        />
+
+	<CheckBox
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/autoExitCB"
+	    android:text="通话结束后自动退出" 
+	    />
+
+</LinearLayout>
